@@ -7,6 +7,9 @@ git remote -v
 git push origin master
 git status
 
+
+#pulling commit
+
 git pull origin master
 git add .
 git commit -m "commit msg"
