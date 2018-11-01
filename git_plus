@@ -1,2 +1,2 @@
-git clone <remote address> <local folder name - optional>    <<clone a remote repository
+git clone <remote ssh address> <local folder name - optional>    <<clone a remote repository
 
