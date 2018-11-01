@@ -1,0 +1,32 @@
+sudo su - postgres
+psql
+Now you are logged in to PostgreSQL database server. To check login info use following command from database command prompt.
+
+postgres-# \conninfo
+
+To disconnect from PostgreSQL database command prompt just type below command and press enter. It will return you back to the Ubuntu command prompt.
+
+postgres-# \q
+
+##vagrant USER /  PASS
+In a terminal, type:
+$ sudo -u postgres psql postgres
+
+Set a password for the "postgres" database role using the command:
+$ \password postgres
+
+and use password “ac” when prompted.
+
+$ sudo -u postgres createuser -D -A -P -E vagrant
+$ sudo -u postgres createdb -E UTF-8 -O vagrant ac
+
+
+
+
+
+
+
+
+
+exec fish 
+fundle install

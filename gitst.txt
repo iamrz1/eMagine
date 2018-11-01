@@ -1,0 +1,12 @@
+git init
+git status
+git add .
+git commit -m "Alhamdulilah! First Commit done."
+git remote add origin https://github.com/iamrz1/Test.git
+git remote -v
+git push origin master
+git status
+
+git pull origin master
+git add .
+git commit -m "commit msg"
