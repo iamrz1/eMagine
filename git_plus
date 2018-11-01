@@ -1,2 +1,8 @@
-git clone <remote ssh address> <local folder name - optional>    <<clone a remote repository
+#clone a remote repository
+git clone <remote ssh address> <local folder name (optional)>    
+
+##if you forget to add ny file/ want to add bunch of newly modified files=> AMEND
+git commit -m 'initial commit'
+$ git add forgotten_file
+$ git commit --amend
 
