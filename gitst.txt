@@ -13,3 +13,16 @@ git status
 git pull origin master
 git add .
 git commit -m "commit msg"
+
+##Branching
+#see branches
+
+git branch
+
+#Create a new branch
+
+git branch BranchName
+
+#Switch to SpecificBranch
+git checkout SpecificBranch
+
